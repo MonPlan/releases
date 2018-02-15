@@ -1,0 +1,26 @@
+# v2018.0.10-beta
+
+_This is still a planned release_
+
+## Features
+- Push Notifications setup
+
+## Bug Fixes
+
+- Changed logo styles to match with Monash Design Guidelines
+- Stopped course overview bar from unneccessary wrapping and tooltip fixing
+- Mobile Fix(es)
+  - Unit detail modals more usable on mobile
+  - Improved course detail modal for mobile users
+  - added flex for unit detail modal
+- change logos to be smaller, hidden one when screen width becomes small
+- clear course text field fill screen (and doesn't overflow on mobile)
+- Fixed clear course bug from closing after being tapped
+- Made tooltip larger
+- Cross button stop cropping on safari for Unit(s) on plan page
+- Fixed issue where clear course also clear(s) method of remembering current version,  don't clear entire local storage. Need MONPLAN_VERSION to remain
+- add left right padding to home screen
+- let users add units with 0 credit points (was previously evaluating to false, but we already checked if value was an integer)
+
+## Other 
+- Fixed Feedback Form and Issue Reporting Form so that Disclaimer is also shown
